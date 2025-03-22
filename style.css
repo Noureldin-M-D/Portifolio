@@ -1,0 +1,77 @@
+:root{
+    --main-blue: #2333dc;
+}
+body{
+    margin: 0;
+}
+.logo{
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: var(--main-blue);
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--main-blue);
+    margin: 1.5rem;
+}
+nav a:hover{
+    --main-blue: #3df43a;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 50px;
+}
+i{
+    margin: 5px;
+}
+span{
+    color: rgb(0, 140, 255);
+}
+
+.projects{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    display: inline-block;
+ background-color: rgb(168, 171, 158);
+ width: 300px;
+ height: 200px;
+ border: 2px outset rgb(0, 0, 0);
+ border-radius: 20px;
+ padding: 0px 10px 10px 10px;
+    margin: 10px;
+}
+.card h2{
+    border-bottom: 1px solid;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.card-p{
+    font-size: 15px;
+}
+body{
+    background: radial-gradient(yellow,orange)
+}
+@media (max-width: 800px){
+    html{
+        font-size: 12px;
+    }
+}
+@media (max-width: 600px){
+    html{
+        font-size: 10px;
+    }
+}
